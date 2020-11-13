@@ -2,3 +2,14 @@
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=itzTheMeow&layout=compact&theme=slateorange)](https://github.com/itzTheMeow)<br>
 [![Wakatime Stats](https://github-readme-stats.vercel.app/api/wakatime?username=itzTheMeow)](https://wakatime.com/@itzTheMeow)<br>
 _<sup><sup>Stats by [github-readme-stats](https://github.com/anuraghazra/github-readme-stats).</sup></sup>_
+
+# My Active Projects
+*Coming Soon*
+
+# Inactive Projects
+[![Pin](https://github-readme-stats.vercel.app/api/pin/?username=itzTheMeow&repo=translator)](https://github.com/itzTheMeow/translator)
+
+<!--
+  Template: 
+  [![Pin](https://github-readme-stats.vercel.app/api/pin/?username=itzTheMeow&repo=)](https://github.com/itzTheMeow/)
+-->
