@@ -1,6 +1,6 @@
-[![Github Stats](https://github-readme-stats.vercel.app/api?username=itzTheMeow&show_icons=true&theme=slateorange&count_private=true&include_all_commits=true)](https://github.com/itzTheMeow)<br>
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=itzTheMeow&layout=compact&theme=slateorange)](https://github.com/itzTheMeow)<br>
-[![Wakatime Stats](https://github-readme-stats.vercel.app/api/wakatime?username=itzTheMeow)](https://wakatime.com/@itzTheMeow)<br>
+[![Github Stats](https://github-readme-stats.vercel.app/api?username=itzTheMeow&show_icons=true&theme=slateorange&count_private=true&include_all_commits=true)](https://github-readme-stats.vercel.app/api?username=itzTheMeow&show_icons=true&theme=slateorange&count_private=true&include_all_commits=true)<br>
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=itzTheMeow&layout=compact&theme=slateorange)](https://github-readme-stats.vercel.app/api/top-langs/?username=itzTheMeow&layout=compact&theme=slateorange)<br>
+[![Wakatime Stats](https://github-readme-stats.vercel.app/api/wakatime?username=itzTheMeow&theme=slateorange)](https://wakatime.com/@itzTheMeow)<br>
 _<sup><sup>Stats by [github-readme-stats](https://github.com/anuraghazra/github-readme-stats).</sup></sup>_
 
 # My Active Projects
