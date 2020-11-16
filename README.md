@@ -6,6 +6,10 @@ _<sup><sup>Stats by [github-readme-stats](https://github.com/anuraghazra/github-
 # My Active Projects
 *Coming Soon*
 
+# APIs and Templates
+[![Pin](https://github-readme-stats.vercel.app/api/pin/?username=itzTheMeow&repo=discord-bot-template)](https://github.com/itzTheMeow/)
+[![Pin](https://github-readme-stats.vercel.app/api/pin/?username=itzTheMeow&repo=window-shaker)](https://github.com/itzTheMeow/)
+
 # Inactive Projects
 [![Pin](https://github-readme-stats.vercel.app/api/pin/?username=itzTheMeow&repo=translator)](https://github.com/itzTheMeow/translator)
 
