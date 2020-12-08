@@ -10,8 +10,8 @@ _<sup><sup>Stats by [github-readme-stats](https://github.com/anuraghazra/github-
 *Coming Soon*
 
 # APIs and Templates
-[![Pin](https://github-readme-stats.vercel.app/api/pin/?username=itzTheMeow&repo=discord-bot-template)](https://github.com/itzTheMeow/)
-[![Pin](https://github-readme-stats.vercel.app/api/pin/?username=itzTheMeow&repo=window-shaker)](https://github.com/itzTheMeow/)
+[![Pin](https://github-readme-stats.vercel.app/api/pin/?username=itzTheMeow&repo=discord-bot-template)](https://github.com/itzTheMeow/discord-bot-template)
+[![Pin](https://github-readme-stats.vercel.app/api/pin/?username=itzTheMeow&repo=window-shaker)](https://github.com/itzTheMeow/window-shaker)
 
 # Inactive Projects
 [![Pin](https://github-readme-stats.vercel.app/api/pin/?username=itzTheMeow&repo=translator)](https://github.com/itzTheMeow/translator)
