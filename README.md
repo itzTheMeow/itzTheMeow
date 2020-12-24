@@ -1,5 +1,7 @@
 # Bio
-Hi! I'm Meow. This part is coming soon to a GitHub repository near you.
+Hi! I'm known as Meow. I do cool stuff with HTML, CSS, JavaScript, NodeJS, AutoHotKey, and a slice of Python. Was that enough for you? No? Well I also make discord bots with DiscordJS.
+
+I also own Meow Development, the group for all my projects! Check it out [here](https://github.com/meowdevelopment).
 
 [![Github Stats](https://github-readme-stats.vercel.app/api?username=itzTheMeow&show_icons=true&theme=slateorange&count_private=true&include_all_commits=true)](https://github-readme-stats.vercel.app/api?username=itzTheMeow&show_icons=true&theme=slateorange&count_private=true&include_all_commits=true)<br>
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=itzTheMeow&layout=compact&theme=slateorange)](https://github-readme-stats.vercel.app/api/top-langs/?username=itzTheMeow&layout=compact&theme=slateorange)<br>
