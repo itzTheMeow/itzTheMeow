@@ -6,6 +6,9 @@
 #                                                     #
 #######################################################
 
+# Run With
+# bash <(curl -sS https://raw.githubusercontent.com/itzTheMeow/itzTheMeow/main/prompt.sh)
+
 echo "
   \    /\   root@person on Ubuntu 20.24
    )  ( ')  CPU: 10%
