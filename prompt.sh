@@ -9,6 +9,17 @@
 # Run With
 # bash <(curl -sS https://raw.githubusercontent.com/itzTheMeow/itzTheMeow/main/prompt.sh)
 
+if ! command -v lolcat &> /dev/null
+then
+    echo "Couldn't find lolcat, installing..."
+    sudo apt-get install lolcat > /dev/null
+fi
+if ! command -v sysstat &> /dev/null
+then
+    echo "Couldn't find sysstat, installing..."
+    sudo apt-get install sysstat > /dev/null
+fi
+
 REL="$(lsb_release -d)"
 
 echo "
