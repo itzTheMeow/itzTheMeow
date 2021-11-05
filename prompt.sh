@@ -25,7 +25,7 @@ REL="$(lsb_release -d)"
 
 echo "
   \    /\   $(whoami)@$(hostname) on ${REL:13}
-   )  ( ')  CPU: 10%
+   )  ( ')  CPU: $(mpstat | awk 'END{print 100-$NF"%"}')
   (  /  )   MEM: 1000mb/1500mb
    \(__)|   DSK: 50gb/100gb
 
