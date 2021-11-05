@@ -10,7 +10,7 @@
 # bash <(curl -sS https://raw.githubusercontent.com/itzTheMeow/itzTheMeow/main/prompt.sh)
 
 echo "
-  \    /\   root@person on Ubuntu 20.24
+  \    /\   $(whoami)@$(hostname) on Ubuntu 20.24
    )  ( ')  CPU: 10%
   (  /  )   MEM: 1000mb/1500mb
    \(__)|   DSK: 50gb/100gb
