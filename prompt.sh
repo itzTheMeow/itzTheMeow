@@ -14,6 +14,7 @@ echo "
    )  ( ')  CPU: 10%
   (  /  )   MEM: 1000mb/1500mb
    \(__)|   DSK: 50gb/100gb
+
   Uptime: 0s
   Packages: 100
 " | lolcat
