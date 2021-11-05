@@ -9,7 +9,7 @@
 # Run With
 # bash <(curl -sS https://raw.githubusercontent.com/itzTheMeow/itzTheMeow/main/prompt.sh)
 
-REL="$(lsb_release -a | grep Description)"
+REL="$(lsb_release -d)"
 
 echo "
   \    /\   $(whoami)@$(hostname) on ${REL:13}
