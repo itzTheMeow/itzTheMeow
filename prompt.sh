@@ -14,6 +14,7 @@ then
     echo "Couldn't find lolcat, installing..."
     sudo apt-get install -y lolcat > /dev/null
 fi
+
 if ! command -v mpstat &> /dev/null
 then
     echo "Couldn't find sysstat, installing..."
