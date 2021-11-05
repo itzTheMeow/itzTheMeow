@@ -12,12 +12,12 @@
 if ! command -v lolcat &> /dev/null
 then
     echo "Couldn't find lolcat, installing..."
-    sudo apt-get install lolcat > /dev/null
+    sudo apt-get install lolcat
 fi
 if ! command -v sysstat &> /dev/null
 then
     echo "Couldn't find sysstat, installing..."
-    sudo apt-get install sysstat > /dev/null
+    sudo apt-get install sysstat
 fi
 
 REL="$(lsb_release -d)"
