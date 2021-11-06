@@ -27,7 +27,7 @@ echo "
   \    /\   $(whoami)@$(hostname) on ${REL:13}
    )  ( ')  CPU: $(mpstat | awk 'END{print 100-$NF"%"}')
   (  /  )   MEM: $(awk '/^Mem/ {print $3}' <(free -m))mb/$(awk '/^Mem/ {print $2}' <(free -m))mb
-   \(__)|   DSK: $(awk '/^\/dev/ {print $3}' <(df -H | grep "/dev/sda1 "))/$(awk '/^\/dev/ {print $2}' <(df -H | grep "/dev/sda1 "))
+   \(__)|   DSK: $(awk '/^\/dev/ {print $3}' <(df -H | grep "/dev/sda1 "))B/$(awk '/^\/dev/ {print $2}' <(df -H | grep "/dev/sda1 "))B
 
   Uptime: 0s
   Packages: 100
