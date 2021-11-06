@@ -22,6 +22,7 @@ then
 fi
 
 REL="$(lsb_release -d)"
+UP="$(uptime -p)"
 
 echo "
   \    /\   $(whoami)@$(hostname) on ${REL:13}
@@ -29,6 +30,6 @@ echo "
   (  /  )   MEM: $(awk '/^Mem/ {print $3}' <(free -m))mb/$(awk '/^Mem/ {print $2}' <(free -m))mb
    \(__)|   DSK: $(awk '/^\/dev/ {print $3}' <(df -H | grep "/dev/sda1 "))B/$(awk '/^\/dev/ {print $2}' <(df -H | grep "/dev/sda1 "))B
 
-  Uptime: 0s
+  Uptime: ${UP:3}
   Packages: 100
 " | lolcat
