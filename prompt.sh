@@ -26,7 +26,7 @@ REL="$(lsb_release -d)"
 echo "
   \    /\   $(whoami)@$(hostname) on ${REL:13}
    )  ( ')  CPU: $(mpstat | awk 'END{print 100-$NF"%"}')
-  (  /  )   MEM: 1000mb/1500mb
+  (  /  )   MEM: $(awk '/^Mem/ {print $3}' <(free -m))mb/$(awk '/^Mem/ {print $2}' <(free -m))mb
    \(__)|   DSK: 50gb/100gb
 
   Uptime: 0s
