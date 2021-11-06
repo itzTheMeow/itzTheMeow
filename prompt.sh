@@ -31,5 +31,5 @@ echo "
    \(__)|   DSK: $(awk '/^\/dev/ {print $3}' <(df -H | grep "/dev/sda1 "))B/$(awk '/^\/dev/ {print $2}' <(df -H | grep "/dev/sda1 "))B
 
   Uptime: ${UP:3}
-  Packages: 100
+  Packages: $(dpkg --list | wc --lines)
 " | lolcat
