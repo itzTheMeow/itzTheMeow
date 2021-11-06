@@ -7,7 +7,7 @@
 #######################################################
 
 # Run With
-# bash <(curl -sS https://raw.githubusercontent.com/itzTheMeow/itzTheMeow/main/prompt.sh)
+# bash <(curl -sS "https://raw.githubusercontent.com/itzTheMeow/itzTheMeow/main/prompt.sh?$(date +%s)")
 
 if ! command -v lolcat &> /dev/null
 then
