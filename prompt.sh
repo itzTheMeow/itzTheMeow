@@ -24,8 +24,8 @@ fi
 REL="$(lsb_release -d)"
 UP="$(uptime -p)"
 
-BLD="\033[0m"
-RST="\033[1m"
+RST="\033[0m"
+BLD="\033[1m"
 
 echo -e "
   \    /\   ${BLD}$(whoami)@$(hostname) on ${REL:13}${RST}
