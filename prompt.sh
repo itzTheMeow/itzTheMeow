@@ -27,7 +27,7 @@ UP="$(uptime -p)"
 BLD="\033[0m"
 RST="\033[1m"
 
-echo "
+echo -e "
   \    /\   ${BLD}$(whoami)@$(hostname) on ${REL:13}${RST}
    )  ( ')  ${BLD}CPU: $(mpstat | awk 'END{print 100-$NF"%"}')${RST}
   (  /  )   ${BLD}MEM: $(awk '/^Mem/ {print $3}' <(free -m))mb/$(awk '/^Mem/ {print $2}' <(free -m))mb${RST}
