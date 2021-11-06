@@ -9,6 +9,10 @@
 # Run With
 # bash <(curl -sS "https://raw.githubusercontent.com/itzTheMeow/itzTheMeow/main/prompt.sh?$(date +%s)")
 
+# Works On
+# DEBIAN/UBUNTU BASED DISTROS ONLY
+# YOU CAN ADAPT IT YOURSELF TO USE YOUR OWN DISTRO
+
 if ! command -v lolcat &> /dev/null
 then
     echo "Couldn't find lolcat, installing..."
