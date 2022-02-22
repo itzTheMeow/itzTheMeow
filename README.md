@@ -13,7 +13,6 @@ _<sup><sup>Stats by [github-readme-stats](https://github.com/anuraghazra/github-
 
 [![Pin](https://github-readme-stats.vercel.app/api/pin/?username=itzTheMeow&theme=slateorange&repo=itzTheMeow.github.io)](https://github.com/itzTheMeow/itzTheMeow.github.io)
 [![Pin](https://github-readme-stats.vercel.app/api/pin/?username=itzTheMeow&theme=slateorange&repo=sand-drawings)](https://github.com/itzTheMeow/sand-drawings)
-[![Pin](https://github-readme-stats.vercel.app/api/pin/?username=meowdevelopment&theme=slateorange&repo=os-client)](https://github.com/meowdevelopment/os-client)
 
 # APIs and Templates
 
