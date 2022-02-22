@@ -17,7 +17,6 @@ _<sup><sup>Stats by [github-readme-stats](https://github.com/anuraghazra/github-
 # APIs and Templates
 
 [![Pin](https://github-readme-stats.vercel.app/api/pin/?username=itzTheMeow&theme=slateorange&repo=discord-bot-template)](https://github.com/itzTheMeow/discord-bot-template)
-[![Pin](https://github-readme-stats.vercel.app/api/pin/?username=itzTheMeow&theme=slateorange&repo=discord.js-old-methods)](https://github.com/itzTheMeow/discord.js-old-methods)
 [![Pin](https://github-readme-stats.vercel.app/api/pin/?username=itzTheMeow&theme=slateorange&repo=simon-says)](https://github.com/itzTheMeow/simon-says)
 [![Pin](https://github-readme-stats.vercel.app/api/pin/?username=itzTheMeow&theme=slateorange&repo=window-shaker)](https://github.com/itzTheMeow/window-shaker)
 
