@@ -32,7 +32,7 @@ echo -e "
   \    /\   $(whoami)@$(hostname) on ${REL:13}
    )  ( ')  CPU: $(mpstat | awk 'END{print 100-$NF"%"}')
   (  /  )   MEM: $(awk '/^Mem/ {print $3}' <(free -m))mb/$(awk '/^Mem/ {print $2}' <(free -m))mb
-   \(__)|   DSK: $(awk '/^\/dev/ {print $3}' <(df -H | grep " /$"))B/$(awk '/^\/dev/ {print $2}' <(df -H | grep "/dev/sda1 "))B
+   \(__)|   DSK: $(awk '/^\/dev/ {print $3}' <(df -H | grep " /$"))B/$(awk '/^\/dev/ {print $2}' <(df -H | grep " /$"))B
 
   Uptime: ${UP:3}
   Packages: $(dpkg --list | wc --lines)
