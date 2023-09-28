@@ -13,7 +13,7 @@
           "style": "powerline",
           "foreground": "p:black",
           "background": "p:yellow",
-          "template": " {{ if .SSHSession }}\ueb01 {{ end }}{{ .UserName }}@{{ .HostName }} "        },
+          "template": " {{ .UserName }}{{ if .SSHSession }}@{{ .HostName }}{{ end }} "        },
         {
           "type": "path",
           "style": "powerline",
