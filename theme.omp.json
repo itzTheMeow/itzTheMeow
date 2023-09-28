@@ -77,8 +77,8 @@
         {
           "type": "git",
           "style": "powerline",
-          "powerline_symbol": "\ue0b2",
-          "invert_powerline": true,
+          "leading_diamond": "\ue0b2",
+          "trailing_diamond": "\ue0b4",
           "foreground": "p:black",
           "foreground_templates": [
             "{{ if or (.Working.Changed) (.Staging.Changed) }}p:black{{ end }}",
