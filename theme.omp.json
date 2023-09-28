@@ -125,7 +125,7 @@
   "secondary_prompt": {
     "foreground": "p:black",
     "background": "transparent",
-    "template": "<p:yellow,transparent>\ue0b6</><,p:yellow> > </><p:yellow,transparent>\ue0b0</> "
+    "template": "<,p:yellow> > </><p:yellow,transparent>\ue0b0</> "
   },
   "palette": {
     "black": "#262B44",
