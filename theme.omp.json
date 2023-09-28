@@ -109,7 +109,7 @@
         {
           "foreground": "p:white",
           "style": "plain",
-          "template": "{{if .Env.TERM_PROGRAM == \"vscode\"}}${{end}}",
+          "template": "{{if eq .Env.TERM_PROGRAM \"vscode\"}}${{end}}",
           "type": "text"
         }
       ],
