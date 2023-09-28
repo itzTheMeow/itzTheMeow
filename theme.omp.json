@@ -25,7 +25,7 @@
           "template": " {{ .Path }} ",
           "properties": {
             "folder_icon": "\uea83",
-            "folder_separator_icon": " \f0fdf ",
+            "folder_separator_icon": " \uf0fdf ",
             "max_depth": 2,
             "style": "agnoster_short"
           }
