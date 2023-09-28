@@ -22,9 +22,12 @@
           "powerline_symbol": "\ue0b0",
           "foreground": "p:white",
           "background": "p:orange",
-          "template": " \uea83 {{ path .Path .Location }} ",
+          "template": " {{ .Path }} ",
           "properties": {
-            "style": "folder"
+            "folder_icon": "\uea83",
+            "folder_separator_icon": " \ue0b1 ",
+            "max_depth": 2,
+            "style": "agnoster_short"
           }
         },
         {
