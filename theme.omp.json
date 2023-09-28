@@ -13,7 +13,7 @@
           "style": "powerline",
           "foreground": "p:black",
           "background": "p:yellow",
-          "template": " {{ .UserName }}{{ if .SSHSession }}@{{ .HostName }}{{ end }} "        },
+          "template": "{{ if ne .Env.TERM_PROGRAM \"vscode\" }} {{ .UserName }}{{ if .SSHSession }}@{{ .HostName }}{{ end }} {{ end }}"        },
         {
           "type": "path",
           "style": "powerline",
@@ -109,7 +109,7 @@
         {
           "foreground": "p:white",
           "style": "plain",
-          "template": "{{if eq .Env.TERM_PROGRAM \"vscode\"}}${{end}}",
+          "template": "{{ if eq .Env.TERM_PROGRAM \"vscode\" }}${{ end }}",
           "type": "text"
         }
       ],
