@@ -14,7 +14,7 @@
           "foreground": "p:black",
           "background": "p:yellow",
           "trailing_diamond": "\ue0b0",
-          "template": " {{ if .SSHSession }}\ueba9 {{ end }}{{ .UserName }} "
+          "template": " {{ if .SSHSession }}\ueba9 {{ end }}{{ .UserName }}@{{ .HostName }} "
         },
         {
           "type": "path",
