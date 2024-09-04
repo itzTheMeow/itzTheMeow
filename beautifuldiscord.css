@@ -1,5 +1,8 @@
-/* Put this in custom.css */
-/* @import url("https://cdn.jsdelivr.net/gh/itzTheMeow/itzTheMeow/beautifuldiscord.css"); */
+/* 
+ * Put this in custom.css - works in browser (Stylus) or beautifuldiscord.
+ *
+ * @import url("https://cdn.jsdelivr.net/gh/itzTheMeow/itzTheMeow/beautifuldiscord.css");
+ */
 
 /* Catppuccin Theme */
 @import url("https://catppuccin.github.io/discord/dist/catppuccin-mocha-sapphire.theme.css");

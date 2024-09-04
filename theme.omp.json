@@ -13,7 +13,8 @@
           "style": "powerline",
           "foreground": "p:black",
           "background": "p:yellow",
-          "template": "{{ if ne .Env.TERM_PROGRAM \"vscode\" }} {{ .UserName }}{{ if .SSHSession }}@{{ .HostName }}{{ end }} {{ end }}"        },
+          "template": "{{ if ne .Env.TERM_PROGRAM \"vscode\" }} {{ .UserName }}{{ if .SSHSession }}@{{ .HostName }}{{ end }} {{ end }}"
+        },
         {
           "type": "path",
           "style": "powerline",
