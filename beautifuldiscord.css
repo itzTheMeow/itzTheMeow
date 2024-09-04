@@ -3,5 +3,5 @@
 
 /* Hides "Activity" From Member List */
 h3[class*="membersGroup"]:has(div[role="button"] path[fill="var(--interactive-normal)"]) {
-  display: hidden;
+  display: none;
 }
