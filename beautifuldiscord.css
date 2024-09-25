@@ -5,7 +5,7 @@
  */
 
 /* Catppuccin Theme */
-@import url("https://catppuccin.github.io/discord/dist/catppuccin-mocha-muave.theme.css");
+@import url("https://catppuccin.github.io/discord/dist/catppuccin-mocha-mauve.theme.css");
 
 /* Hides "Activity" From Member List */
 h3[class*="membersGroup"]:has(div[role="button"] path[fill="var(--interactive-normal)"]) {
