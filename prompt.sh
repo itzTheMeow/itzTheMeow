@@ -1,39 +1,5 @@
-#######################################################
-#                      Credits                        #
-#                    Made by Meow                     #
-#                                                     #
-#      Cat: https://www.asciiart.eu/animals/cats      #
-#                                                     #
-#######################################################
+# Deprecated, see: https://github.com/itzTheMeow/dotfiles/blob/master/dot_bin/executable_startup-message.sh
 
-# Run With
-# bash <(curl -sS "https://raw.githubusercontent.com/itzTheMeow/itzTheMeow/main/prompt.sh?$(date +%s)")
-
-# Works On
-# DEBIAN/UBUNTU BASED DISTROS ONLY
-# YOU CAN ADAPT IT YOURSELF TO USE YOUR OWN DISTRO
-
-if ! command -v lolcat &> /dev/null
-then
-    echo "Couldn't find lolcat, installing..."
-    sudo apt-get install -y lolcat > /dev/null
-fi
-
-if ! command -v mpstat &> /dev/null
-then
-    echo "Couldn't find sysstat, installing..."
-    sudo apt-get install -y sysstat > /dev/null
-fi
-
-REL="$(lsb_release -d)"
-UP="$(uptime -p)"
-
-echo -e "
-  \    /\   $(whoami)@$(hostname) on ${REL:13}
-   )  ( ')  CPU: $(mpstat | awk 'END{print 100-$NF"%"}')
-  (  /  )   MEM: $(awk '/^Mem/ {print $3}' <(free -m))mb/$(awk '/^Mem/ {print $2}' <(free -m))mb
-   \(__)|   DSK: $(awk '/^\/dev/ {print $3}' <(df -H | grep " /$"))B/$(awk '/^\/dev/ {print $2}' <(df -H | grep " /$"))B
-
-  Uptime: ${UP:3}
-  Packages: $(dpkg --list | wc --lines)
-" | lolcat
+# Provided for compatibility only...
+echo "This script is deprecated. See https://github.com/itzTheMeow/dotfiles/blob/master/dot_bin/executable_startup-message.sh for the new script."
+bash <(curl -sS "https://raw.githubusercontent.com/itzTheMeow/dotfiles/refs/heads/master/dot_bin/executable_startup-message.sh?$(date +%s)")
